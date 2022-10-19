@@ -4,7 +4,7 @@ int fun(int n)
 {
     int j;
     int count=0;
-    char str[n];
+    char str[10000];
     for(j=0;j<n;j++)
     {
         cin>>str[j];
