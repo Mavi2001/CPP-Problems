@@ -2,7 +2,7 @@
 using namespace std;
 int fun(int n, int x)
 {
-    int j,a[n],b[n],count=0;
+    int j,a[1000],b[1000],count=0;
     for(j=0;j<n;j++)
     {
         cin>>a[j]>>b[j];
