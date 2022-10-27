@@ -3,7 +3,7 @@ using namespace std;
 int fun(int n)
 {
     int i,count=0;
-    char arr[n];
+    char arr[1000];
     for(i=0;i<n;i++)
     {
         cin>>arr[i];
