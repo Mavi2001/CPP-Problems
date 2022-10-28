@@ -2,7 +2,7 @@
 using namespace std;
 int fun(int n, int m,int k)
 {
-    int j,q,sum=0,arr[k];
+    int j,q,sum=0,arr[1000];
     for(j=0;j<k;j++)
 	    {
 	        cin>>arr[j];
