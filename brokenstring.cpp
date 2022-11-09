@@ -2,7 +2,7 @@
 using namespace std;
 int fun(int n)
 {
-    char str[n];
+    char str[1000];
     int count=0,i;
     for(i=1;i<=n;i++)
     {
