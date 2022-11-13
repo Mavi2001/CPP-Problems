@@ -3,7 +3,7 @@ using namespace std;
 
 int fun2(int i, int n, char s[])
 {
-    int j,k,flag[n];
+    int j,k,flag[100];
     for(k=0;k<n;k++)
     {
         flag[k]=0;
@@ -20,8 +20,8 @@ int fun2(int i, int n, char s[])
 
 int fun(int n)
 {
-    int i,j,flag[n],count = 0;
-    char s[n];
+    int i,j,flag[100],count = 0;
+    char s[100];
     // for(i=0;i<n;i++)
     // {
     //     flag[i]=0;
